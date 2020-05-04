@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'gmoney_back_end',
+    'item',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'gmoney_pjt.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'gmoney',
+        'NAME': 'my_database',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
